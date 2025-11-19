@@ -38,6 +38,7 @@ python monitor.py
 
 ````
 ### Salida Esperada
+-Maquina de La Pulga Chiapaneca
 - MONITOR DEL SISTEMA - 11:31:11
 - 
 ==================================================
