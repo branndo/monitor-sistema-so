@@ -31,3 +31,6 @@ cd monitor-sistema-so
 
 # Instalar dependencias
 pip install -r requirements.txt
+
+# Ejecutar el monitor
+python monitor.py
