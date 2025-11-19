@@ -5,13 +5,13 @@ Herramienta de monitorización en tiempo real para sistemas operativos desarroll
 
 ## 🚀 Características
 - 📊 **Monitoreo de CPU** en tiempo real
-- 💾 **Uso de memoria RAM** con porcentaje y valores absolutos
-- 🔄 **Procesos activos** en el sistema
-- 💿 **Espacio en disco** utilizado y disponible
-- 🌐 **Estadísticas de red** - tráfico entrante y saliente
+- 💾 **Uso de memoria RAM** con porcentaje y valores 
+- 🔄 **Procesos activos** en el sistema en uso
+- 💿 **Espacio en disco** utilizado y disponible 
+- 🌐 **Estadísticas de red** - tráfico entrante y tambien el saliente
 
 ## 🛠️ Tecnologías Utilizadas
-- **Python 3.3**
+- **Python 3.6**
 - **Librería psutil** para obtención de métricas del sistema
 - **Git** para control de versiones
 
@@ -20,6 +20,7 @@ Herramienta de monitorización en tiempo real para sistemas operativos desarroll
 ### Prerrequisitos
 - Python 3.6 o superior
 - pip (gestor de paquetes de Python)
+- Entorno virtual
 
 ### Pasos de instalación
 ```bash
