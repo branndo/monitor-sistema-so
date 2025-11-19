@@ -37,12 +37,12 @@ python monitor.py
 
 ````
 ### Salida Esperada
--MONITOR DEL SISTEMA - 11:31:11
+- MONITOR DEL SISTEMA - 11:31:11
 ==================================================
-CPU: 12.1%
-MEMORIA: 42.7% (18GB libres de 31GB)
-PROCESOS ACTIVOS: 270
-DISCO: 60.3% usado (369GB libres de 930GB)
-RED: ↓2082MB ↑79MB
+-CPU: 12.1%
+-MEMORIA: 42.7% (18GB libres de 31GB)
+-PROCESOS ACTIVOS: 270
+-DISCO: 60.3% usado (369GB libres de 930GB)
+-RED: ↓2082MB ↑79MB
 ==================================================
-Presiona Ctrl+C para salir
+-Presiona Ctrl+C para salir
