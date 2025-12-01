@@ -55,4 +55,4 @@ python monitor.py
 
 ==================================================
 
--Presiona Ctrl+C para salir
+-Presiona Ctrl+C para salir :v
