@@ -11,9 +11,9 @@ class MonitorSistema:
         os.system('cls' if os.name == 'nt' else 'clear')
     
     def crear_barra(self, porcentaje, ancho=30):
-    #Crea una barra de progreso gráfica
+    #Crea una barra de progreso gráfica en texto
         completo = int(porcentaje * ancho / 100)
-    # Usar caracteres para las barras
+    # Usar caracteres para las barras de progresos
         barra = "#" * completo + "-" * (ancho - completo)
         return barra
     
@@ -65,7 +65,7 @@ class MonitorSistema:
         barra_memoria = self.crear_barra(memoria['porcentaje'])
         barra_disco = self.crear_barra(disco['porcentaje'])
         
-        # Mostrar con barras
+        # Mostrar con barras de progreso y un formato mas decente. 
         print(f"\nCPU:")
         print(f"  [{barra_cpu}]")
         print(f"  {cpu:.1f}%")
@@ -84,7 +84,7 @@ class MonitorSistema:
         print(f"  Recibidos: {red['bytes_recibidos']:>5} MB")
         print(f"  Enviados:  {red['bytes_enviados']:>5} MB")
         
-        # Separador
+        # Separador y mensaje de salida
         print("\n" + "-" * 50)
         print(f"Actualizado: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
         print("Presionar Ctrl + C para salir :v")
@@ -101,3 +101,6 @@ class MonitorSistema:
 if __name__ == "__main__":
     monitor = MonitorSistema()
     monitor.ejecutar()
+    
+    
+#No funciona el ctrl C en vscode terminal por alguna razon xd
