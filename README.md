@@ -55,4 +55,5 @@ python monitor.py
 
 ==================================================
 
--Presiona Ctrl+C para salir :v
+-Presiona Ctrl+C para salir
+*Errores presentes en el ssd 
